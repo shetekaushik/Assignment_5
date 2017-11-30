@@ -12,3 +12,4 @@ get_mode<-function(data){
   uniq<-unique(data)
   uniq[which.max(tabulate(match(data,uniq)))]
 }
+Name:-Kaushik Shete
